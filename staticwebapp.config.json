@@ -21,6 +21,10 @@
             "allowedRoles": ["administrator"]
         },
         {
+            "route": "/clinician",
+            "allowedRoles": ["clinician"]
+        },
+        {
             "route": "/login",
             "rewrite": "/.auth/login/aad"
         },
