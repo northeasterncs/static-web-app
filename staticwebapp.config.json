@@ -7,16 +7,6 @@
     },
     "routes":[
         {
-            "route": "/",
-            "rewrite": "/index.html"
-        },
-        {
-            "route": "/index.html",
-            "headers": {
-                "Cache-Control": "public, max-age=604800, immutable"
-            }
-        },
-        {
             "route": "/admin",
             "allowedRoles": ["administrator"]
         },
