@@ -11,6 +11,10 @@
             "allowedRoles": ["administrator"]
         },
         {
+            "route": "/api/CheckIn",
+            "allowedRoles": ["administrator"]
+        },
+        {
             "route": "/clinician",
             "allowedRoles": ["clinician"]
         },
